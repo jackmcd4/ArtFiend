@@ -1,13 +1,20 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+  <meta charset="utf-8">
   <title>Art Fiend</title>
+  <!-- Angular Dependencied -->
   <script src="bower_components/jquery/dist/jquery.min.js"></script>
   <script src="bower_components/angular/angular.min.js"></script>
+  <script src="bower_components/angular-ui-router/release/angular-ui-router.min.js"></script>
+  <!-- App Dependencies -->
+  <script src="app/app.js"></script>
+  <!-- Style Dependencies -->
   <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
   <link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
 </head>
 <body>
+  <!-- NAVIGATION -->
   <nav class="navbar navbar-inverse">
     <div class="container-fluid">
 
@@ -32,5 +39,12 @@
 
     </div>
   </nav>
+
+  <!-- ANGULAR APP -->
+  <div ng-app>
+    <!-- <div ng-controller="GalleryCtrl"> -->
+      
+    <!-- </div> -->
+  </div>
 </body>
 </html>
