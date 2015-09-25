@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" ng-app>
 <head>
   <meta charset="utf-8">
   <title>Art Fiend</title>
@@ -32,7 +32,7 @@
       <!-- Menu -->
       <div class="collapse navbar-collapse" id="nav1">
         <ul class="nav navbar-nav">
-          <li class="active"><a href="#">Gallery <span class="sr-only">(gallery)</span></a></li>
+          <li class="active"><a href="#/gallery">Gallery <span class="sr-only">(gallery)</span></a></li>
           <li><a href="#">Profile<span class="sr-only">(profile)</span></a></li>
         </ul>
       </div>
@@ -41,10 +41,6 @@
   </nav>
 
   <!-- ANGULAR APP -->
-  <div ng-app>
-    <!-- <div ng-controller="GalleryCtrl"> -->
-      
-    <!-- </div> -->
-  </div>
+  <div ui-view></div>
 </body>
 </html>
